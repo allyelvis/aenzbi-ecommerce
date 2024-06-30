@@ -7,5 +7,9 @@ channel = "stable-23_11"
 run = ["sh", "-c", "npm install"]
 
 [[ports]]
+localPort = 3000
+externalPort = 3000
+
+[[ports]]
 localPort = 9005
 externalPort = 80
